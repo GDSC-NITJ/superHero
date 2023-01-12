@@ -1,22 +1,100 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width">
-  <title>replit</title>
-  <link href="style.css" rel="stylesheet" type="text/css" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <title>Finding SuperHero</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 
 <body>
-  <h2>🌟 Super Hero App</h2>
-  <p>You can search for a super hero like "batman" or "thanos" or... You can generate a random hero</p>
-  <input id='searchInput' type="text">
-  <button id='searchButton'>Search</button>
-  <button id='newHeroButton'>Random Hero</button>
-  </br>
-  <div id='heroImage'><img src="" alt=""></div>
-  <script src="script.js"></script>
+
+    <div class="main-wrapper">
+        <div class="app">
+            <!-- app header -->
+            <div class="app-header">
+                <h2 class="app-header-title">Super<span>Hero.</span></h2>
+                <div class="app-header-search">
+                    <input type="text" id="form-control" placeholder="Search your superhero here ...">
+                    <button id="search-btn">
+                        <i class="fas fa-search"></i>
+                        <!-- Search -->
+                    </button>
+                </div>
+                <button type = "submit" id="random">Random Hero</button>
+            </div>
+            <!-- end of app header -->
+
+            <div class="app-body">
+                <div class="app-body-content">
+                    <!-- app body thumbnail -->
+                    <div class="app-body-content-thumbnail">
+                        <img src="https://www.superherodb.com/pictures2/portraits/10/100/274.jpg">
+                    </div>
+                    <!-- end of app body thumbnail -->
+
+                    <div class="app-body-content-list">
+                        <div class="name">Captain America</div>
+                        <div class="app-body-tabs-body">
+                            <ul class="tab-body-single powerstats">
+                                <li>
+                                    <div>
+                                        <i class="fa-solid fa-shield-halved"></i>
+                                        <span>intelligence</span>
+                                    </div>
+                                    <span>69</span>
+                                </li>
+                                <li>
+                                    <div>
+                                        <i class="fa-solid fa-shield-halved"></i>
+                                        <span>strength</span>
+                                    </div>
+                                    <span>19</span>
+                                </li>
+                                <li>
+                                    <div>
+                                        <i class="fa-solid fa-shield-halved"></i>
+                                        <span>speed</span>
+                                    </div>
+                                    <span>38</span>
+                                </li>
+                                <li>
+                                    <div>
+                                        <i class="fa-solid fa-shield-halved"></i>
+                                        <span>durability</span>
+                                    </div>
+                                    <span>55</span>
+                                </li>
+                                <li>
+                                    <div>
+                                        <i class="fa-solid fa-shield-halved"></i>
+                                        <span>power</span>
+                                    </div>
+                                    <span>60</span>
+                                </li>
+                                <li>
+                                    <div>
+                                        <i class="fa-solid fa-shield-halved"></i>
+                                        <span>combat</span>
+                                    </div>
+                                    <span>100</span>
+                                </li>
+                            </ul>
+        
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <script src="script.js"></script>
 </body>
 
 </html>

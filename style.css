@@ -262,6 +262,7 @@ img {
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
+        justify-content: center;
     }
 
     .app-header-search #form-control {

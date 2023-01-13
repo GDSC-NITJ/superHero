@@ -247,6 +247,8 @@ img {
     .app-header-search {
         margin-top: 2.8rem;
         margin-bottom: 2rem;
+        display: flex;
+        justify-content: center;
     }
 }
 

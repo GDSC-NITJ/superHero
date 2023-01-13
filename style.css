@@ -246,6 +246,7 @@ img {
 
     .app-header-search {
         margin-top: 2.8rem;
+        margin-bottom: 2rem;
     }
 }
 
@@ -258,7 +259,6 @@ img {
     }
 
     .app-header-search {
-        display: none;
         display: -webkit-box;
         display: -ms-flexbox;
         display: flex;
